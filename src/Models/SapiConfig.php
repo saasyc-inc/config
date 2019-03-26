@@ -5,7 +5,7 @@ namespace Yiche\Config\Models;
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * v0.2
+ * v1.0
  * Class SapiConfig
  * @package App\Models
  * User: lifei
@@ -14,7 +14,7 @@ use Illuminate\Database\Eloquent\Model;
 class SapiConfig extends Model
 {
 
-    protected $table = 'yichedb.sapi_config';
+    protected $table = 'sapi_config';
 
     //将数据库中的config_value字段 json自动转换为数组
     public function getConfigValueAttribute($value)
