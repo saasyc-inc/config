@@ -2,7 +2,7 @@
 
 配置管理
 
-- composer require yiche/config:dev-master
+- composer require yiche/config 1.0
 
 
 ## 使用
