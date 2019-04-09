@@ -1,20 +1,26 @@
 {
-    "name": "yiche/config",
-    "description": "基础库-配置管理",
-    "authors": [
-        {
-            "name": "飞 李",
-            "email": "lif@lrwanche.com"
-        }
-    ],
-    "require": {
-    	"php": ">=7.0.0",
-		"laravel/framework": "5.5.*"
-
-    },
-    "autoload": {
-        "psr-4": {
-            "Yiche\\Config\\": "src/"
-        }
+  "name": "yiche/config",
+  "description": "基础库-配置管理",
+  "authors": [
+    {
+      "name": "飞 李",
+      "email": "lif@lrwanche.com"
     }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "laravel/framework": "5.5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Yiche\\Config\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Yiche\\Config\\ConfigServiceProvider"
+      ]
+    }
+  }
 }
